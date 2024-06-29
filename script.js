@@ -2,16 +2,16 @@
             h = c.height = window.innerHeight,
             ctx = c.getContext('2d'),
 
-            hw = w / 2, // half-width
+            hw = w / 3.5, // half-width
             hh = h / 2,
 
             opts = {
-                strings: ['HAPPY', 'BIRTHDAY!', 'EM CUA ANH'],
-                charSize: 120,
-                charSpacing: 120,
+                strings: ['HAPPY', 'BIRTHDAY!', 'EM ❤️❤️❤️'],
+                charSize: 23,
+                charSpacing: 42,
                 lineHeight: 120,
 
-                cx: w / 2,
+                cx: w / 3,
                 cy: h / 2,
 
                 fireworkPrevPoints: 10,
